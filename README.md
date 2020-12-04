@@ -1,7 +1,7 @@
 # NordVPN Server API Filter (Python)
 GIT Hub: https://github.com/kylek29/python_nordvpn_server_filter/
 
-A w.i.p. filter for the NordVPN API server list. Allows you to filter based on country and select feature sets. Not modulized at the moment.
+A w.i.p. filter for the NordVPN API server list. Allows you to filter based on country and select feature sets. Not modulized at the moment. Code is somewhat fragmented as it was built over a large length of time so it could use a complete refresh.
 
 Further credit to various online help repositories and other examples for
 the NordVPN API endpoint.
@@ -99,7 +99,7 @@ Returns a set() of server IDs.
  ...}
 ```
 
-### Filter by feature, available options: proxy, proxy_ssl, socks:
+### Filter by feature, available options: proxy, proxy_ssl, socks, p2p:
 
 `proxy.filter_feature('proxy')`
 
