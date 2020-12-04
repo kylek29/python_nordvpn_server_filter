@@ -109,7 +109,7 @@ Returns a set() of servers that support that feature.
 
 You can combine filters to return a set() of server ID's that match the given parameters. Do this by passing in an existing filtered set() of server ID's to another filter, examples:
 
-### Filter on countries US, CA & features 'socks':
+#### Example: Filter on countries US, CA & features 'socks':
 
 ```
 filtered = proxy.filter_country( ['US', 'CA'], proxies = proxy.filter_feature('socks'))
